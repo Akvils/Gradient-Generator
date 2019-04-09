@@ -1,6 +1,6 @@
 body {
 	font: 'Futura', sans-serif;
-    color: rgba(0,0,0,.5);
+    color: rgba(255, 255, 255,.7);
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
@@ -9,8 +9,8 @@ body {
 }
 
 h1 {
-    font: 600 3em 'Futura', sans-serif;
-    color: rgba(0,0,0,.5);
+    font: 100 3em 'Noto', sans-serif;
+    color: rgba(255, 255, 255,.9);
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .2em;
@@ -18,17 +18,22 @@ h1 {
 }
 
 h2 {
-    font: 100 2em 'Futura', sans-serif;
-    color: rgba(0,0,0,.5);
+    font: 100 2em 'Noto', sans-serif;
+    color: rgba(255, 255, 255,.9);
     text-align: center;
     text-transform: none;
     letter-spacing: 0.01em;
 }
 
-h3 {
-	font: 500 1.2em 'Futura', sans-serif;
-    color: rgba(0,0,0,.5);
+h3, label {
+	font: 100 1.2em 'Noto', sans-serif;
+    color: rgba(255, 255, 255,.9);
     text-align: center;
     text-transform: none;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.05em;
+}
+
+input {
+    width: 5rem;
+    margin: 1rem;
 }
